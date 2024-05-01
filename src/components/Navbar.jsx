@@ -95,7 +95,7 @@ export default function Navbar() {
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li>
                 <Link
-                  className="btn btn-lemon mx-3 mb-2 mb-lg-0"
+                  className="btn btn-basic mx-3 mb-2 mb-lg-0"
                   to="/GoMyTeam/"
                 >
                   Request for DEMO!
@@ -103,7 +103,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  className="btn btn-lemon mx-3 mb-2 mb-lg-0"
+                  className="btn btn-basic mx-3 mb-2 mb-lg-0"
                   to="/GoMyTeam/"
                 >
                   Start your free trial now!
@@ -113,7 +113,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="py-5"></div>
+      <div className="py-4"></div>
     </>
   );
 }

@@ -10,11 +10,7 @@ export default function ({ title, description, buttonText, imagePath }) {
         <div className="d-flex flex-column justify-content-center col-12 col-lg-6 mb-5 mb-lg-0 ">
           <p className="display-2 fw-bold">{title}</p>
           <p className="lead">{description}</p>
-          <a
-            className="btn btn-outline-primary fw-bolder"
-            role="button"
-            href="#"
-          >
+          <a className="btn btn-basic btn-lg fw-bolder" role="button" href="#">
             {buttonText}
           </a>
         </div>

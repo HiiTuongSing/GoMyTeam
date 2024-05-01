@@ -1,28 +1,23 @@
-.btn-lemon {
-  color: yellow;
+.btn-basic {
+  color: var(--extra-color);
   font-weight: 600;
-  border: 3px solid yellow;
+  border: 3px solid var(--extra-color);
 
   &:hover {
-    color: black;
-    border-color: white;
-    background-color: white;
+    color: var(--primary-color-dark);
+    border-color: var(--extra-color);
+    background-color: var(--extra-color);
   }
 }
 
-.btn-green {
-  color: var(--text-color);
+.btn-reverse {
+  color: var(--primary-color-dark);
   font-weight: 600;
-  border: 3px solid var(--text-color);
+  border: 3px solid var(--primary-color-dark);
 
   &:hover {
-    color: var(--text-color);
-    background-color: hsl(
-      var(--secondary-color-hue),
-      var(--secondary-color-sat),
-      59%
-    );
-    border: 3px solid
-      hsl(var(--secondary-color-hue), var(--secondary-color-sat), 59%);
+    color: var(--extra-color);
+    border-color: var(--primary-color-dark);
+    background-color: var(--primary-color-dark);
   }
 }

@@ -9,11 +9,11 @@ export default function DescriptionPanel({
 }) {
   if (reverse) {
     return (
-      <div className="descriptive-panel row d-flex justify-content-center p-lg-5 mx-auto mb-5 reverse">
+      <div className="descriptive-panel row d-flex justify-content-center p-lg-5 mx-auto mb-5 reverse rounded">
         <div className="col-12 col-md-6 descriptive-panel-description pe-lg-5">
           <h3>{title}</h3>
           <p>{description}</p>
-          <a href="#" className="btn btn-primary">
+          <a href="#" className="btn btn-reverse btn-lg">
             {buttonText}
           </a>
         </div>
@@ -25,7 +25,7 @@ export default function DescriptionPanel({
     );
   } else {
     return (
-      <div className="descriptive-panel row d-flex justify-content-center p-lg-5 mx-auto mb-5">
+      <div className="descriptive-panel row d-flex justify-content-center p-lg-5 mx-auto mb-5 rounded">
         <div className="col-12 col-md-6 descriptive-panel-image pb-2 pb-lg-0">
           <img src={imagePath} alt={title} className="rounded" />
         </div>
@@ -33,7 +33,7 @@ export default function DescriptionPanel({
         <div className="col-12 col-md-6 descriptive-panel-description ps-lg-5">
           <h3>{title}</h3>
           <p>{description}</p>
-          <a href="#" className="btn btn-primary">
+          <a href="#" className="btn btn-reverse btn-lg">
             {buttonText}
           </a>
         </div>

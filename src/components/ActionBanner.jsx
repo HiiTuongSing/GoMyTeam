@@ -11,7 +11,7 @@ export default function ActionBanner({ title, description, buttonText }) {
           <p className="mx-md-5 my-0 pb-3 fs-4">{description}</p>
         </div>
 
-        <a className="btn btn-primary btn-lg">{buttonText}</a>
+        <a className="btn btn-basic btn-lg">{buttonText}</a>
       </div>
     </div>
   );
