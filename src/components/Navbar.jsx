@@ -32,14 +32,11 @@ function printNavPath(navArray) {
 export default function Navbar() {
   return (
     <>
-      <nav
-        class="navbar navbar-expand-xl bg-dark  fixed-top"
-        data-bs-theme="dark"
-      >
+      <nav class="navbar navbar-expand-xl fixed-top navbar-custom">
         <div class="container-fluid m-auto" style={{ maxWidth: "1300px" }}>
           <Link class="navbar-brand" to="/GoMyTeam/">
-            <p className="display-6 ms-3 mb-2 mb-lg-0 logo">
-              <i class="fa-solid fa-lemon " /> GoMyTeam
+            <p className="display-6 fw-bold ms-3 mb-2 mb-lg-0 logo">
+              <i class="fa-solid fa-lemon" /> GoMyTeam
             </p>
           </Link>
 
@@ -106,7 +103,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  className="btn btn-green mx-3 mb-2 mb-lg-0"
+                  className="btn btn-lemon mx-3 mb-2 mb-lg-0"
                   to="/GoMyTeam/"
                 >
                   Start your free trial now!

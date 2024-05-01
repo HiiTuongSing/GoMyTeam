@@ -1,3 +1,4 @@
+@import "./variables.css";
 @import "./buttons.css";
 @import "./components.css";
 
@@ -5,11 +6,4 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-.logo {
-  color: #fff44f;
-  &:hover {
-    color: #ffffff;
-  }
 }

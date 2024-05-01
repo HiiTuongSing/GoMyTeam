@@ -1,21 +1,28 @@
 .btn-lemon {
-  color: #fff44f;
+  color: yellow;
   font-weight: 600;
-  border-color: #fff44f;
+  border: 3px solid yellow;
 
   &:hover {
-    color: #ffffff;
-    border-color: #ffffff;
+    color: black;
+    border-color: white;
+    background-color: white;
   }
 }
 
 .btn-green {
-  color: #50c878;
+  color: var(--text-color);
   font-weight: 600;
-  border-color: #50c878;
+  border: 3px solid var(--text-color);
 
   &:hover {
-    color: #ffffff;
-    border-color: #ffffff;
+    color: var(--text-color);
+    background-color: hsl(
+      var(--secondary-color-hue),
+      var(--secondary-color-sat),
+      59%
+    );
+    border: 3px solid
+      hsl(var(--secondary-color-hue), var(--secondary-color-sat), 59%);
   }
 }
