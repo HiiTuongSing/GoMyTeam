@@ -1,0 +1,12 @@
+.navbar .nav-link {
+  color: #ffffff;
+  &:hover {
+    color: #ffff00;
+  }
+}
+
+.dropdown-item {
+  &:hover {
+    color: #ffff00;
+  }
+}
