@@ -27,9 +27,9 @@ const productArray = [
 ];
 
 const serviceArray = [
-  { name: "Online Support", path: "/GoMyTeam/" },
-  { name: "System Training", path: "/GoMyTeam/" },
-  { name: "System Integration Training", path: "/GoMyTeam/" },
+  { name: "Online Support", path: "/GoMyTeam/online-support" },
+  { name: "System Training", path: "/GoMyTeam/system-training" },
+  { name: "System Integration", path: "/GoMyTeam/system-integration" },
 ];
 
 //functions
@@ -111,7 +111,7 @@ export default function Navbar() {
               <li>
                 <Link
                   className="btn btn-basic mx-3 mb-2 mb-lg-0"
-                  to="/GoMyTeam/"
+                  to="/GoMyTeam/placeholder-page"
                 >
                   Request for DEMO!
                 </Link>
@@ -119,7 +119,7 @@ export default function Navbar() {
               <li>
                 <Link
                   className="btn btn-basic mx-3 mb-2 mb-lg-0"
-                  to="/GoMyTeam/"
+                  to="/GoMyTeam/placeholder-page"
                 >
                   Start your free trial now!
                 </Link>

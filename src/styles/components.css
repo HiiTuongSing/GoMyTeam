@@ -63,8 +63,10 @@
 }
 
 .description-panel-container {
+  background-color: var(--extra-color);
   .description-panel {
     background-color: var(--secondary-color-dark);
+    color: var(--extra-color);
     width: 70vw;
     @media (max-width: 900px) {
       width: 100vw;
@@ -129,6 +131,21 @@
           color: var(--secondary-color-dark);
         }
       }
+    }
+  }
+}
+
+.test-hero-banner-container {
+  width: 100%;
+  background-color: var(--primary-color-light);
+  color: var(--extra-color);
+
+  .row {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 }

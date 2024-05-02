@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
 
 //pages
 import Home from "./pages/Home";
@@ -11,10 +12,16 @@ import TeamCollaborationTools from "./pages/products/TeamCollaborationTools.jsx"
 import TrainingAndDevelopmentResources from "./pages/products/TrainingAndDevelopmentResources.jsx";
 import CustomizableHRTemplates from "./pages/products/CustomizableHRTemplates.jsx";
 import DataAnalyticDashboard from "./pages/products/DataAnalyticDashboard.jsx";
+import OnlineSupport from "./pages/services/OnlineSupport.jsx";
+import SystemTraining from "./pages/services/SystemTraining.jsx";
+import SystemIntegration from "./pages/services/SystemIntegration.jsx";
+import PlaceholderPage from "./pages/PlaceholderPage.jsx";
 
 //components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import BackToTopButton from "./components/BackToTopButton.jsx";
+import TopOnRender from "./components/TopOnRender.jsx";
 
 export default function App() {
   return (
@@ -48,8 +55,20 @@ export default function App() {
           path="/GoMyTeam/data-analytic-dashboard"
           element={<DataAnalyticDashboard />}
         />
+        <Route path="/GoMyTeam/online-support" element={<OnlineSupport />} />
+        <Route path="/GoMyTeam/system-training" element={<SystemTraining />} />
+        <Route
+          path="/GoMyTeam/system-integration"
+          element={<SystemIntegration />}
+        />
+        <Route
+          path="/GoMyTeam/placeholder-page"
+          element={<PlaceholderPage />}
+        />
       </Routes>
+      <BackToTopButton />
       <Footer />
+      <TopOnRender />
     </>
   );
 }

@@ -36,7 +36,7 @@ const functionArray = [
     description:
       "Collect and aggregate data from multiple sources, including HR systems, collaboration tools, and surveys, for comprehensive analysis.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -44,7 +44,7 @@ const functionArray = [
     description:
       "Monitor employee engagement, productivity, turnover rates, and other key performance indicators (KPIs) to identify areas for improvement.",
     linkText: "<< More Info",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -52,7 +52,7 @@ const functionArray = [
     description:
       "Compare your organization's performance against industry benchmarks and peer groups to gain insights and competitive advantage.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
 ];
@@ -77,6 +77,7 @@ export default function DataAnalyticDashboard() {
         title="Ready to harness the power of data to drive your business forward?"
         description="Experience the transformative potential of InsightPro360 today and stay ahead of the curve!"
         buttonText="Sign up now!"
+        buttonLink="/GoMyTeam/placeholder-page"
       />
     </>
   );

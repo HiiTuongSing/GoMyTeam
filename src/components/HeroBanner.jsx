@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // 1. The css is included in the src/styles/component.css
 // 2. <HeroBanner title='' description='' buttonText='' imagePath='' />
@@ -11,9 +12,13 @@ export default function ({ title, description, buttonText, imagePath }) {
         <div className="d-flex flex-column justify-content-center col-12 col-lg-6 mb-5 mb-lg-0">
           <p className="display-5 fw-bold">{title}</p>
           <p className="lead">{description}</p>
-          <a className="btn btn-basic btn-lg fw-bolder" role="button" href="#">
+          <Link
+            className="btn btn-basic btn-lg fw-bolder"
+            role="button"
+            to="/GoMyTeam/placeholder-page"
+          >
             {buttonText}
-          </a>
+          </Link>
         </div>
 
         <div className="col-12 col-lg-6 d-flex justify-content-center">

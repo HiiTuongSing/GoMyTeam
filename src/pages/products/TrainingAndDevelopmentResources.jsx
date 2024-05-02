@@ -36,7 +36,7 @@ const functionArray = [
     description:
       "Access a diverse library of on-demand courses, tutorials, and resources covering various topics and skills.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -44,7 +44,7 @@ const functionArray = [
     description:
       " Identify skill gaps and training needs through comprehensive assessments and personalized learning recommendations.",
     linkText: "<< More Info",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -52,7 +52,7 @@ const functionArray = [
     description:
       "Engage with peers, mentors, and subject matter experts through discussion forums, webinars, and virtual workshops.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
 ];
@@ -74,6 +74,7 @@ export default function TrainingAndDevelopmentResources() {
         title="Ready to invest in your team's future success?"
         description="Enroll in LearnPro360 today and empower your employees to thrive in an ever-evolving world!"
         buttonText="Sign up now!"
+        buttonLink="/GoMyTeam/placeholder-page"
       />
     </>
   );

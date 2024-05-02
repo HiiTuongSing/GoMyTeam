@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 export default function Test({ title, array }) {
   return (
     <>
-      <div className="description-panel-container w-100">
+      <div className="description-panel-container w-100 pb-5">
         <div className="description-panel-title">
-          <p className="display-3 text-center my-5">{title}</p>
+          <h1 className="py-5 text-center">{title}</h1>
         </div>
         {array.map((item, index) => (
           <div

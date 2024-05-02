@@ -36,7 +36,7 @@ const functionArray = [
     description:
       " Collaborate on documents, spreadsheets, and presentations in real-time, with version control and commenting features.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -44,7 +44,7 @@ const functionArray = [
     description:
       " Organize tasks, assign responsibilities, and track progress effortlessly with intuitive task management tools.",
     linkText: "<< More Info",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -52,7 +52,7 @@ const functionArray = [
     description:
       "Stay connected with your team through instant messaging, video conferencing, and virtual meeting rooms.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
 ];
@@ -74,6 +74,7 @@ export default function TeamCollaborationTools() {
         title="Ready to revolutionize the way your team works together?"
         description="Join CollaboraHub today and take collaboration to new heights!"
         buttonText="Sign up now!"
+        buttonLink="/GoMyTeam/placeholder-page"
       />
     </>
   );

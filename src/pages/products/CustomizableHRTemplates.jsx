@@ -36,7 +36,7 @@ const functionArray = [
     description:
       "Access a centralized repository of HR documents, categorized for easy navigation and retrieval.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -44,7 +44,7 @@ const functionArray = [
     description:
       "Customize templates with your company logo, colors, and content to align with your brand identity and requirements.",
     linkText: "<< More Info",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -52,7 +52,7 @@ const functionArray = [
     description:
       "Track changes, maintain version control, and review document history to ensure accuracy and accountability.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
 ];
@@ -74,6 +74,7 @@ export default function CustomizableHRTemplates() {
         title="Ready to streamline your HR documentation process? "
         description="Unlock the power of HRDocsPro today and simplify your HR operations with ease!"
         buttonText="Sign up now!"
+        buttonLink="/GoMyTeam/placeholder-page"
       />
     </>
   );

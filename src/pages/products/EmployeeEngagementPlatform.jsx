@@ -33,7 +33,7 @@ const functionArray = [
     description:
       "Gather valuable insights through customizable surveys and feedback mechanisms.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -41,7 +41,7 @@ const functionArray = [
     description:
       "Facilitate peer-to-peer recognition and incentivize high performance with rewards and badges.",
     linkText: "<< More Info",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -49,7 +49,7 @@ const functionArray = [
     description:
       "Foster open communication and collaboration through integrated messaging and discussion forums.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
 ];
@@ -72,6 +72,7 @@ export default function EmployeeEngagementPlatform() {
         title="What are you waiting for?"
         description="Boost team morale and productivity with our Employee Engagement Platform!"
         buttonText="Sign up now!"
+        buttonLink="/GoMyTeam/placeholder-page"
       />
     </>
   );

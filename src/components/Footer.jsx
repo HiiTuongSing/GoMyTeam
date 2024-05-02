@@ -27,15 +27,14 @@ const productArray = [
 ];
 
 const serviceArray = [
-  { name: "Online Support", path: "/GoMyTeam/" },
-  { name: "System Training", path: "/GoMyTeam/" },
-  { name: "System Integration Training", path: "/GoMyTeam/" },
+  { name: "Online Support", path: "/GoMyTeam/online-support" },
+  { name: "System Training", path: "/GoMyTeam/system-training" },
+  { name: "System Integration", path: "/GoMyTeam/system-integration" },
 ];
 
 const otherArray = [
   { name: "Pricing", path: "/GoMyTeam/pricing" },
   { name: "About Us", path: "/GoMyTeam/about" },
-  { name: "Contact Us", path: "/GoMyTeam/" },
 ];
 
 function printNavPath(navArray) {
@@ -61,15 +60,15 @@ export default function Footer() {
             </div>
             <div className="col-6 ps-0">
               <h3 className="text-end">
-                <a className="social-link" href="#">
+                <Link className="social-link" to="/GoMyTeam/placeholder-page">
                   <i className="fa-brands fa-square-facebook me-3"></i>
-                </a>
-                <a className="social-link" href="#">
+                </Link>
+                <Link className="social-link" to="/GoMyTeam/placeholder-page">
                   <i className="fa-brands fa-linkedin me-3"></i>
-                </a>
-                <a className="social-link" href="#">
+                </Link>
+                <Link className="social-link" to="/GoMyTeam/placeholder-page">
                   <i className="fa-brands fa-youtube me-3"></i>
-                </a>
+                </Link>
               </h3>
             </div>
           </div>

@@ -36,7 +36,7 @@ const functionArray = [
     description:
       "Streamline the hiring process from job posting to candidate selection and onboarding.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -44,7 +44,7 @@ const functionArray = [
     description:
       " Simplify payroll processing, tax calculations, and benefits administration for a hassle-free experience.",
     linkText: "<< More Info",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
   {
@@ -52,7 +52,7 @@ const functionArray = [
     description:
       "Set objectives, conduct performance appraisals, and track employee progress with intuitive performance management tools.",
     linkText: "More Info >>",
-    linkPath: "#",
+    linkPath: "/GoMyTeam/placeholder-page",
     imagePath: HeroImage,
   },
 ];
@@ -74,6 +74,7 @@ export default function HRManagementSystem() {
         title="Ready to revolutionize your HR operations?"
         description="Experience the power of HRProSuite today and unlock the true potential of your workforce!"
         buttonText="Sign up now!"
+        buttonLink="/GoMyTeam/placeholder-page"
       />
     </>
   );
