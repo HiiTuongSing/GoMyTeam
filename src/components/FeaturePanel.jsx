@@ -1,8 +1,8 @@
 import React from "react";
 
-// 1. This component displays 3 features of a subject
+// 1. <FeaturePanel title="" featureArray={} />
 // 2. FeatureArray should look like this:
-// featureArray = [
+// const featureArray = [
 //   { imagePath: "x", title: "x", description: "x" },
 //   { imagePath: "x", title: "x", description: "x" },
 //   { imagePath: "x", title: "x", description: "x" },

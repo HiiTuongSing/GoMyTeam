@@ -1,5 +1,7 @@
 import React from "react";
 
+// 1. <ActionBanner title="" description="" buttonText="" />
+
 export default function ActionBanner({ title, description, buttonText }) {
   return (
     <div className="action-banner-container py-5 text-center">

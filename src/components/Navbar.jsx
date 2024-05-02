@@ -3,12 +3,27 @@ import { Link } from "react-router-dom";
 
 //arrays
 const productArray = [
-  { name: "Employee Engagement Platform", path: "/GoMyTeam/" },
-  { name: "HR Management System", path: "/GoMyTeam/" },
-  { name: "Team Collaboration Tools", path: "/GoMyTeam/" },
-  { name: "Training & Development Resources", path: "/GoMyTeam/" },
-  { name: "Customizable HR Templates", path: "/GoMyTeam/" },
-  { name: "Data Analytic Dashboard", path: "/GoMyTeam/" },
+  {
+    name: "Employee Engagement Platform",
+    path: "/GoMyTeam/employee-engagement-platform",
+  },
+  { name: "HR Management System", path: "/GoMyTeam/hr-management-system" },
+  {
+    name: "Team Collaboration Tools",
+    path: "/GoMyTeam/team-collaboration-tools",
+  },
+  {
+    name: "Training & Development Resources",
+    path: "/GoMyTeam/training-and-development-resources",
+  },
+  {
+    name: "Customizable HR Templates",
+    path: "/GoMyTeam/customizable-hr-templates",
+  },
+  {
+    name: "Data Analytic Dashboard",
+    path: "/GoMyTeam/data-analytic-dashboard",
+  },
 ];
 
 const serviceArray = [
@@ -32,16 +47,16 @@ function printNavPath(navArray) {
 export default function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-xl fixed-top navbar-custom">
-        <div class="container-fluid m-auto" style={{ maxWidth: "1300px" }}>
-          <Link class="navbar-brand" to="/GoMyTeam/">
+      <nav className="navbar navbar-expand-xl fixed-top navbar-custom">
+        <div className="container-fluid m-auto" style={{ maxWidth: "1300px" }}>
+          <Link className="navbar-brand" to="/GoMyTeam/">
             <p className="display-6 fw-bold ms-3 mb-2 mb-lg-0 logo">
-              <i class="fa-solid fa-lemon" /> GoMyTeam
+              <i className="fa-solid fa-lemon lemon" /> GoMyTeam
             </p>
           </Link>
 
           <button
-            class="navbar-toggler"
+            className="navbar-toggler btn-nav"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -49,13 +64,13 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-grip-lines"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3 ms-lg-5">
-              <li class="nav-item dropdown ps-lg-3">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-3 ms-lg-5">
+              <li className="nav-item dropdown ps-lg-3">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -63,12 +78,12 @@ export default function Navbar() {
                 >
                   Products
                 </a>
-                <ul class="dropdown-menu">{printNavPath(productArray)}</ul>
+                <ul className="dropdown-menu">{printNavPath(productArray)}</ul>
               </li>
 
-              <li class="nav-item dropdown ps-lg-3">
+              <li className="nav-item dropdown ps-lg-3">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -76,17 +91,17 @@ export default function Navbar() {
                 >
                   Services
                 </a>
-                <ul class="dropdown-menu">{printNavPath(serviceArray)}</ul>
+                <ul className="dropdown-menu">{printNavPath(serviceArray)}</ul>
               </li>
 
-              <li class="nav-item ps-lg-3">
-                <Link class="nav-link" to="/GoMyTeam/about">
+              <li className="nav-item ps-lg-3">
+                <Link className="nav-link" to="/GoMyTeam/about">
                   About
                 </Link>
               </li>
 
-              <li class="nav-item ps-lg-3">
-                <Link class="nav-link" to="/GoMyTeam/pricing">
+              <li className="nav-item ps-lg-3">
+                <Link className="nav-link" to="/GoMyTeam/pricing">
                   Pricing
                 </Link>
               </li>
@@ -113,7 +128,6 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="py-4"></div>
     </>
   );
 }

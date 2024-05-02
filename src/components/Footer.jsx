@@ -1,6 +1,50 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //1. The css is located at styles/components.css
+const productArray = [
+  {
+    name: "Employee Engagement Platform",
+    path: "/GoMyTeam/employee-engagement-platform",
+  },
+  { name: "HR Management System", path: "/GoMyTeam/hr-management-system" },
+  {
+    name: "Team Collaboration Tools",
+    path: "/GoMyTeam/team-collaboration-tools",
+  },
+  {
+    name: "Training & Development Resources",
+    path: "/GoMyTeam/training-and-development-resources",
+  },
+  {
+    name: "Customizable HR Templates",
+    path: "/GoMyTeam/customizable-hr-templates",
+  },
+  {
+    name: "Data Analytic Dashboard",
+    path: "/GoMyTeam/data-analytic-dashboard",
+  },
+];
+
+const serviceArray = [
+  { name: "Online Support", path: "/GoMyTeam/" },
+  { name: "System Training", path: "/GoMyTeam/" },
+  { name: "System Integration Training", path: "/GoMyTeam/" },
+];
+
+const otherArray = [
+  { name: "Pricing", path: "/GoMyTeam/pricing" },
+  { name: "About Us", path: "/GoMyTeam/about" },
+  { name: "Contact Us", path: "/GoMyTeam/" },
+];
+
+function printNavPath(navArray) {
+  return navArray.map((nav, index) => (
+    <li key={index}>
+      <Link to={nav.path}>{nav.name}</Link>
+    </li>
+  ));
+}
 
 export default function Footer() {
   return (
@@ -10,7 +54,9 @@ export default function Footer() {
           <div className="row">
             <div className="col-6 pe-0">
               <h3>
-                <i class="fa-solid fa-jet-fighter-up"></i> GoMyTeam
+                <Link className="navbar-brand" to="/GoMyTeam/">
+                  <i className="fa-solid fa-lemon" /> GoMyTeam
+                </Link>
               </h3>
             </div>
             <div className="col-6 ps-0">
@@ -31,10 +77,9 @@ export default function Footer() {
           <div className="row">
             <div className="col-12 col-md-4 pb-5 pb-md-0">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                GoMyTeam is your ally in revolutionizing workplace dynamics. We
+                specialize in empowering businesses with streamlined HR
+                solutions and fostering unparalleled employee engagement.
               </p>
               <p className="fw-light">
                 <em>Designed by Hii Tuong Sing</em>
@@ -47,56 +92,17 @@ export default function Footer() {
 
             <div className="col-12 col-md-3 pb-5 pb-md-0">
               <p className="mb-4 h5">Products</p>
-              <ul className="p-0 m-0">
-                <li>
-                  <a href="#">Employee Engagement Platform</a>
-                </li>
-                <li>
-                  <a href="#">HR Management System</a>
-                </li>
-                <li>
-                  <a href="#">Team Collaboration Tools</a>
-                </li>
-                <li>
-                  <a href="#">Training & Development Resources</a>
-                </li>
-                <li>
-                  <a href="#">Customizable HR Templates</a>
-                </li>
-                <li>
-                  <a href="#">Data Analytic Dashboard</a>
-                </li>
-              </ul>
+              <ul className="p-0 m-0">{printNavPath(productArray)}</ul>
             </div>
 
             <div className="col-6 col-md-2">
               <p className="mb-4 h5">Supports</p>
-              <ul className="p-0 m-0">
-                <li>
-                  <a href="#">Online Support</a>
-                </li>
-                <li>
-                  <a href="#">System Training</a>
-                </li>
-                <li>
-                  <a href="#">System Integration Support</a>
-                </li>
-              </ul>
+              <ul className="p-0 m-0">{printNavPath(serviceArray)}</ul>
             </div>
 
             <div className="col-6 col-md-2">
               <p className="mb-4 h5">Others</p>
-              <ul className="p-0 m-0">
-                <li>
-                  <a href="#">Pricing</a>
-                </li>
-                <li>
-                  <a href="#">About Us</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
-              </ul>
+              <ul className="p-0 m-0">{printNavPath(otherArray)}</ul>
             </div>
           </div>
         </div>

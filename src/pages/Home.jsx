@@ -4,6 +4,7 @@ import HeroImage from "../images/sea.jpg";
 import FeaturePanel from "../components/FeaturePanel";
 import DescriptionPanel from "../components/DescriptionPanel";
 import ActionBanner from "../components/ActionBanner";
+import Carousel from "../components/Carousel";
 
 const featureArray = [
   {
@@ -50,6 +51,7 @@ export default function Home() {
         buttonText="GOD DAMN!"
         reverse="true"
       />
+      <Carousel />
       <ActionBanner
         title="What are you waiting for?"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

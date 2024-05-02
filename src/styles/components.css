@@ -3,8 +3,16 @@
 
   .logo {
     color: var(--extra-color);
+
+    .lemon {
+      color: yellow;
+    }
+
     &:hover {
       color: var(--secondary-color-light);
+      .lemon {
+        color: var(--secondary-color-light);
+      }
     }
   }
 
@@ -29,7 +37,7 @@
 }
 
 .hero-banner-container {
-  width: 100%;
+  min-width: 100%;
   background-color: var(--secondary-color-dark);
   .hero-banner {
     width: 80vw;
@@ -57,7 +65,7 @@
 .descriptive-panel {
   background-color: var(--secondary-color-dark);
   width: 70vw;
-  @media (min-width: 2000px) {
+  @media (max-width: 900px) {
     width: 100vw;
   }
 
@@ -84,6 +92,30 @@
     flex-direction: column-reverse;
   }
 }
+
+/* .description-panel-container {
+  .description-panel {
+    overflow: hidden;
+    background-color: red;
+    width: 80%;
+
+    img {
+      height: 100%;
+      width: 90%;
+      object-fit: contain;
+    }
+
+    &:nth-child(even) .description-panel:first-child,
+    &:nth-child(odd) .description-panel:last-child {
+      order: 1;
+    }
+
+    &:nth-child(even) .description-panel:last-child,
+    &:nth-child(odd) .description-panel:first-child {
+      order: 2;
+    }
+  }
+} */
 
 .action-banner-container {
   width: 100%;

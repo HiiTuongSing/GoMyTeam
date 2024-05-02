@@ -1,7 +1,8 @@
 .btn-basic {
   color: var(--extra-color);
   font-weight: 600;
-  border: 3px solid var(--extra-color);
+  border: 0.2rem solid var(--extra-color);
+  box-shadow: none;
 
   &:hover {
     color: var(--primary-color-dark);
@@ -13,11 +14,23 @@
 .btn-reverse {
   color: var(--primary-color-dark);
   font-weight: 600;
-  border: 3px solid var(--primary-color-dark);
+  border: 0.2rem solid var(--primary-color-dark);
 
   &:hover {
     color: var(--extra-color);
     border-color: var(--primary-color-dark);
     background-color: var(--primary-color-dark);
+  }
+}
+
+.btn-nav {
+  color: var(--extra-color);
+  font-weight: 600;
+  border-color: var(--extra-color);
+  box-shadow: none;
+
+  &:hover {
+    color: var(--primary-color-dark);
+    background-color: var(--extra-color);
   }
 }
