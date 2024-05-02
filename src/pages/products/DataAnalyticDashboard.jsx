@@ -3,7 +3,6 @@ import React from "react";
 //components
 import HeroBanner from "../../components/HeroBanner";
 import FeaturePanel from "../../components/FeaturePanel";
-// import Test from "../../components/Test";
 import DescriptionPanel from "../../components/DescriptionPanel";
 import ActionBanner from "../../components/ActionBanner";
 
@@ -31,6 +30,33 @@ const featureArray = [
   },
 ];
 
+const functionArray = [
+  {
+    title: "Data Aggregation & Integration",
+    description:
+      "Collect and aggregate data from multiple sources, including HR systems, collaboration tools, and surveys, for comprehensive analysis.",
+    linkText: "More Info >>",
+    linkPath: "#",
+    imagePath: HeroImage,
+  },
+  {
+    title: "Performance Metrics Tracking",
+    description:
+      "Monitor employee engagement, productivity, turnover rates, and other key performance indicators (KPIs) to identify areas for improvement.",
+    linkText: "<< More Info",
+    linkPath: "#",
+    imagePath: HeroImage,
+  },
+  {
+    title: "Benchmarking & Comparative Analysis",
+    description:
+      "Compare your organization's performance against industry benchmarks and peer groups to gain insights and competitive advantage.",
+    linkText: "More Info >>",
+    linkPath: "#",
+    imagePath: HeroImage,
+  },
+];
+
 export default function DataAnalyticDashboard() {
   return (
     <>
@@ -45,20 +71,7 @@ export default function DataAnalyticDashboard() {
         featureArray={featureArray}
       />
 
-      <DescriptionPanel
-        imagePath={HeroImage}
-        title="Real-Time Recognition and Feedback"
-        description="The app allows employees to give and receive real-time feedback and recognition from their peers and managers. This function fosters a culture of appreciation and transparency, empowering employees to feel valued and motivated in their work."
-        buttonText="Get a free trial!"
-      />
-
-      <DescriptionPanel
-        imagePath={HeroImage}
-        title="Personalized Engagement Activities"
-        description="The app offers personalized engagement activities and challenges tailored to each employee's preferences and interests. From wellness challenges to skill-building exercises, this function promotes employee growth and well-being while strengthening team cohesion and morale."
-        buttonText="Get a free trial!"
-        reverse="true"
-      />
+      <DescriptionPanel title="Core Functions" array={functionArray} />
 
       <ActionBanner
         title="Ready to harness the power of data to drive your business forward?"

@@ -62,60 +62,39 @@
   }
 }
 
-.descriptive-panel {
-  background-color: var(--secondary-color-dark);
-  width: 70vw;
-  @media (max-width: 900px) {
-    width: 100vw;
-  }
-
-  .descriptive-panel-image {
-    height: 50vh;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-
-  .descriptive-panel-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 768px) {
-  .reverse {
-    flex-direction: column-reverse;
-  }
-}
-
-/* .description-panel-container {
+.description-panel-container {
   .description-panel {
-    overflow: hidden;
-    background-color: red;
-    width: 80%;
-
-    img {
-      height: 100%;
-      width: 90%;
-      object-fit: contain;
+    background-color: var(--secondary-color-dark);
+    width: 70vw;
+    @media (max-width: 900px) {
+      width: 100vw;
     }
 
-    &:nth-child(even) .description-panel:first-child,
-    &:nth-child(odd) .description-panel:last-child {
+    .description-panel-image {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &:nth-child(even) .description-panel-description,
+    &:nth-child(odd) .description-panel-image {
       order: 1;
     }
 
-    &:nth-child(even) .description-panel:last-child,
-    &:nth-child(odd) .description-panel:first-child {
+    &:nth-child(even) .description-panel-image,
+    &:nth-child(odd) .description-panel-description {
       order: 2;
     }
+
+    &:nth-child(even) {
+      @media (max-width: 768px) {
+        flex-direction: column-reverse;
+      }
+    }
   }
-} */
+}
 
 .action-banner-container {
   width: 100%;

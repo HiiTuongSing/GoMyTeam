@@ -3,7 +3,6 @@ import React from "react";
 //components
 import HeroBanner from "../../components/HeroBanner";
 import FeaturePanel from "../../components/FeaturePanel";
-// import Test from "../../components/Test";
 import DescriptionPanel from "../../components/DescriptionPanel";
 import ActionBanner from "../../components/ActionBanner";
 
@@ -28,22 +27,32 @@ const featureArray = [
   },
 ];
 
-// const array = [
-//   {
-//     title: "test",
-//     description: "test",
-//     linkText: "test",
-//     linkPath: "#",
-//     imagePath: HeroImage,
-//   },
-//   {
-//     title: "test",
-//     description: "test",
-//     linkText: "test",
-//     linkPath: "#",
-//     imagePath: HeroImage,
-//   },
-// ];
+const functionArray = [
+  {
+    title: "Survey & Feedback Tools",
+    description:
+      "Gather valuable insights through customizable surveys and feedback mechanisms.",
+    linkText: "More Info >>",
+    linkPath: "#",
+    imagePath: HeroImage,
+  },
+  {
+    title: "Recognition & Rewards",
+    description:
+      "Facilitate peer-to-peer recognition and incentivize high performance with rewards and badges.",
+    linkText: "<< More Info",
+    linkPath: "#",
+    imagePath: HeroImage,
+  },
+  {
+    title: "Communication Channels",
+    description:
+      "Foster open communication and collaboration through integrated messaging and discussion forums.",
+    linkText: "More Info >>",
+    linkPath: "#",
+    imagePath: HeroImage,
+  },
+];
 
 export default function EmployeeEngagementPlatform() {
   return (
@@ -58,22 +67,7 @@ export default function EmployeeEngagementPlatform() {
         title=" Boost Employee Engagement"
         featureArray={featureArray}
       />
-
-      <DescriptionPanel
-        imagePath={HeroImage}
-        title="Real-Time Recognition and Feedback"
-        description="The app allows employees to give and receive real-time feedback and recognition from their peers and managers. This function fosters a culture of appreciation and transparency, empowering employees to feel valued and motivated in their work."
-        buttonText="Get a free trial!"
-      />
-
-      <DescriptionPanel
-        imagePath={HeroImage}
-        title="Personalized Engagement Activities"
-        description="The app offers personalized engagement activities and challenges tailored to each employee's preferences and interests. From wellness challenges to skill-building exercises, this function promotes employee growth and well-being while strengthening team cohesion and morale."
-        buttonText="Get a free trial!"
-        reverse="true"
-      />
-
+      <DescriptionPanel title="Core Functions" array={functionArray} />
       <ActionBanner
         title="What are you waiting for?"
         description="Boost team morale and productivity with our Employee Engagement Platform!"

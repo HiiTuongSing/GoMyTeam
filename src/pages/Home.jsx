@@ -37,20 +37,6 @@ export default function Home() {
         imagePath={HeroImage}
       />
       <FeaturePanel title="Features" featureArray={featureArray} />
-      <h1 className="my-5 text-center">Benefits</h1>
-      <DescriptionPanel
-        imagePath={HeroImage}
-        title="Just Testing it Out"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        buttonText="GOD DAMN!"
-      />
-      <DescriptionPanel
-        imagePath={HeroImage}
-        title="Just Testing it Out"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        buttonText="GOD DAMN!"
-        reverse="true"
-      />
       <Carousel />
       <ActionBanner
         title="What are you waiting for?"
