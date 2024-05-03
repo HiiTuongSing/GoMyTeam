@@ -52,7 +52,7 @@ export default function Pricing() {
     <>
       <HeroBanner
         title="Pricing"
-        description="Choose from one of the packages, or contact us for a more customized plan!"
+        description="Explore our transparent and flexible pricing options designed to meet the needs of businesses of all sizes. With clear pricing tiers and no hidden fees, you can choose the plan that best suits your requirements and budget. Get started today and experience the value of our products without any surprises."
         buttonText="More info >>"
         imagePath={HeroImage}
       />

@@ -30,14 +30,16 @@ export default function PricingPanel({ title, pricingArray }) {
                 <p className="m-0">Per Employee/Month</p>
               </div>
               <Link
-                className="btn btn-basic btn-lg w-100 mb-3"
+                className="btn btn-reverse btn-lg w-100 mb-3"
                 to={item.linkPath}
               >
                 Purchase
               </Link>
               <h5>Feature includes</h5>
               {item.features.map((feature, index) => (
-                <p key={index}>{feature}</p>
+                <p key={index} className="fw-light">
+                  {feature}
+                </p>
               ))}
             </div>
           </div>

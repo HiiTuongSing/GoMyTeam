@@ -1,25 +1,27 @@
 .btn-basic {
   color: var(--extra-color);
+  background-color: var(--core-color);
   font-weight: 600;
-  border: 0.2rem solid var(--extra-color);
+  border: 0.2rem solid var(--core-color);
   box-shadow: none;
 
   &:hover {
-    color: var(--primary-color-dark);
+    color: var(--core-color);
     border-color: var(--extra-color);
     background-color: var(--extra-color);
   }
 }
 
 .btn-reverse {
-  color: var(--primary-color-dark);
+  color: var(--core-color);
+  background-color: var(--extra-color);
   font-weight: 600;
-  border: 0.2rem solid var(--primary-color-dark);
+  border: 0.2rem solid var(--extra-color);
 
   &:hover {
     color: var(--extra-color);
-    border-color: var(--primary-color-dark);
-    background-color: var(--primary-color-dark);
+    border-color: var(--core-color);
+    background-color: var(--core-color);
   }
 }
 

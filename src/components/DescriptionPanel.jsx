@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 export default function DescriptionPanel({ title, array }) {
   return (
     <>
-      <div className="description-panel-container pb-5">
+      <div className="description-panel-container pb-lg-5">
         <div className="description-panel-title">
           <h1 className="py-5 text-center">{title}</h1>
         </div>
         {array.map((item, index) => (
           <div
             key={index}
-            className="description-panel row rounded mb-5 p-5 mx-auto"
+            className="description-panel row mb-lg-5 p-5 mx-auto"
           >
             <div className="description-panel-description col-12 col-md-6 d-flex flex-column justify-content-center">
               <p className="display-5">{item.title}</p>

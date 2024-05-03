@@ -68,8 +68,11 @@
     background-color: var(--secondary-color-dark);
     color: var(--extra-color);
     width: 70vw;
+    border-radius: 0.7rem;
     @media (max-width: 900px) {
       width: 100%;
+      border-radius: 0;
+      border-bottom: 3px solid var(--extra-color);
     }
 
     .description-panel-image {
@@ -140,6 +143,10 @@
   background-color: var(--primary-color-light);
   color: var(--extra-color);
 
+  @media (max-width: 900px) {
+    width: 100%;
+    border-bottom: 5px solid var(--core-color);
+  }
   .row {
     width: 100%;
     img {
@@ -201,6 +208,7 @@
   .pricing-panel {
     background-color: var(--primary-color-dark);
     max-width: 350px;
+    min-height: 600px;
     .price-box {
       background-color: var(--secondary-color-dark);
     }
