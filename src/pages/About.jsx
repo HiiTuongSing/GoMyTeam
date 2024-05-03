@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //components
 import ActionBanner from "../components/ActionBanner";
@@ -95,7 +96,12 @@ export default function About() {
               Explore career opportunities and become part of the GoMyTeam
               family today!
             </p>
-            <button className="btn btn-basic btn-lg mb-5">Join now!</button>
+            <Link
+              className="btn btn-basic btn-lg mb-5"
+              to="/GoMyTeam/placeholder-page"
+            >
+              Join now!
+            </Link>
           </div>
         </div>
       </div>

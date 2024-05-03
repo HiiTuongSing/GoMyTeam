@@ -10,8 +10,8 @@ export default function ({ title, description, buttonText, imagePath }) {
     <div className="hero-banner-container d-flex align-items-center py-5 mt-5">
       <div className="hero-banner row">
         <div className="d-flex flex-column justify-content-center col-12 col-lg-6 mb-5 mb-lg-0">
-          <p className="display-5 fw-bold">{title}</p>
-          <p className="lead">{description}</p>
+          <p className="display-5 fw-bold ">{title}</p>
+          <p className="lead ">{description}</p>
           <Link
             className="btn btn-basic btn-lg fw-bolder"
             role="button"

@@ -13,7 +13,7 @@ const array = [
   {
     title: "Employee Engagement Platform",
     description:
-      "Unlock the full potential of your team with EngagePlus. Foster a culture of collaboration, recognition, and success, and watch your business thrive.",
+      "Unlock the full potential of your team. Foster a culture of collaboration, recognition, and success, and watch your business thrive.",
     linkText: "Learn more",
     linkPath: "/GoMyTeam/employee-engagement-platform",
     imagePath: HeroImage,
@@ -21,7 +21,7 @@ const array = [
   {
     title: "HR Management System",
     description:
-      "Simplify HR management with HRProSuite. From hiring to payroll and beyond, streamline your processes and focus on what matters most: your people.",
+      "Simplify HR management. From hiring to payroll and beyond, streamline your processes and focus on what matters most: your people.",
     linkText: "Learn more",
     linkPath: "/GoMyTeam/hr-management-system",
     imagePath: HeroImage,
@@ -29,7 +29,7 @@ const array = [
   {
     title: "Team Collaboration Tools",
     description:
-      "Collaborate smarter, not harder, with CollaboraHub. Empower your team to work together seamlessly and achieve exceptional results, every time.",
+      "Collaborate smarter, not harder. Empower your team to work together seamlessly and achieve exceptional results, every time.",
     linkText: "Learn more",
     linkPath: "/GoMyTeam/team-collaboration-tools",
     imagePath: HeroImage,
@@ -37,7 +37,7 @@ const array = [
   {
     title: "Training and Development Resources",
     description:
-      "Invest in your team's growth with LearnPro360. Access a wealth of training resources and empower your employees to reach their full potential.",
+      "Invest in your team's growth. Access a wealth of training resources and empower your employees to reach their full potential.",
     linkText: "Learn more",
     linkPath: "/GoMyTeam/training-and-development-resources",
     imagePath: HeroImage,
@@ -45,7 +45,7 @@ const array = [
   {
     title: "Customizable HR Templates",
     description:
-      "Streamline your HR processes with HRDocsPro. Access customizable templates and documents, tailored to your business needs, and stay compliant effortlessly.",
+      "Streamline your HR processes. Access customizable templates and documents, tailored to your business needs, and stay compliant effortlessly.",
     linkText: "Learn more",
     linkPath: "/GoMyTeam/customizable-hr-templates",
     imagePath: HeroImage,
@@ -53,7 +53,7 @@ const array = [
   {
     title: "Data Analytic Dashboard",
     description:
-      "Gain valuable insights into your business with InsightPro360. Visualize key metrics and trends, make data-driven decisions, and propel your business forward.",
+      "Gain valuable insights into your business. Visualize key metrics and trends, make data-driven decisions, and propel your business forward.",
     linkText: "Learn more",
     linkPath: "/GoMyTeam/data-analytic-dashboard",
     imagePath: HeroImage,
@@ -75,7 +75,7 @@ const featureArray = [
   },
   {
     imagePath: HeroImage,
-    title: "System Integration Support",
+    title: "System Integration",
     description:
       "Simplify the integration process and ensure seamless connectivity with our system integration support. Our experts will guide you through every step, helping you integrate our solutions with your existing systems effortlessly.",
   },
@@ -95,7 +95,7 @@ export default function Home() {
       <ActionBanner
         title="What are you waiting for?"
         description="Ready to revolutionize your workplace? Explore our suite of innovative solutions today and empower your team for success!"
-        buttonText=" Get started now."
+        buttonText=" Get started now"
         buttonLink="/GoMyTeam/placeholder-page"
       />
     </>

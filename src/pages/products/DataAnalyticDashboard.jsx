@@ -7,7 +7,7 @@ import DescriptionPanel from "../../components/DescriptionPanel";
 import ActionBanner from "../../components/ActionBanner";
 
 //images
-import HeroImage from "../../images/placeholder.jpg";
+import HeroImage from "../../images/sea.jpg";
 
 const featureArray = [
   {

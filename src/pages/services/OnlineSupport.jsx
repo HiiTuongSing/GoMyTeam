@@ -60,17 +60,17 @@ const documentArray = [
   {
     title: "Call Us!",
     imagePath: CallUs,
-    linkPath: "/GoMyTeam/placeholder-image",
+    linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Email Us!",
     imagePath: Email,
-    linkPath: "/GoMyTeam/placeholder-image",
+    linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Text Us!",
     imagePath: TextUs,
-    linkPath: "/GoMyTeam/placeholder-image",
+    linkPath: "/GoMyTeam/placeholder-page",
   },
 ];
 
