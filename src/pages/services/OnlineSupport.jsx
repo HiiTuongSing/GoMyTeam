@@ -2,7 +2,7 @@ import React from "react";
 
 //components
 import HeroBanner from "../../components/HeroBanner";
-import FeaturePanel from "../../components/FeaturePanel";
+import DocumentList from "../../components/DocumentList";
 import FAQ from "../../components/FAQ";
 
 //images
@@ -11,16 +11,6 @@ import CallUs from "../../images/call-us.svg";
 import Email from "../../images/email.svg";
 import TextUs from "../../images/text-us.svg";
 import FeedbackForm from "../../components/FeedbackForm";
-
-const featureArray = [
-  { imagePath: CallUs, title: "Call Us", description: "03 12345678" },
-  { imagePath: TextUs, title: "Text Us", description: "+60 123456789" },
-  {
-    imagePath: Email,
-    title: "Email Us",
-    description: "gomyteam@xmail.com",
-  },
-];
 
 const FAQArray = [
   {
@@ -66,18 +56,36 @@ const FAQArray = [
   },
 ];
 
+const documentArray = [
+  {
+    title: "Call Us!",
+    imagePath: CallUs,
+    linkPath: "/GoMyTeam/placeholder-image",
+  },
+  {
+    title: "Email Us!",
+    imagePath: Email,
+    linkPath: "/GoMyTeam/placeholder-image",
+  },
+  {
+    title: "Text Us!",
+    imagePath: TextUs,
+    linkPath: "/GoMyTeam/placeholder-image",
+  },
+];
+
 export default function OnlineSupport() {
   return (
     <>
       <HeroBanner
         title="Online Support"
-        description="We provide support to you, no matter where and when!"
-        buttonText="More info >>"
+        description="Get the assistance you need, when you need it. Our dedicated online support team is here to provide quick and reliable solutions to your queries and concerns. Whether it's troubleshooting technical issues or seeking guidance on product features, we're just a click away to ensure you have a seamless experience with our products."
+        buttonText="Call Us Now >>"
         imagePath={HeroImage}
       />
-      <FeaturePanel
-        title="We got you covered, 24/7!"
-        featureArray={featureArray}
+      <DocumentList
+        title="Any questions? Reach out to us now!"
+        documentArray={documentArray}
       />
       <FAQ FAQArray={FAQArray} />
       <FeedbackForm />

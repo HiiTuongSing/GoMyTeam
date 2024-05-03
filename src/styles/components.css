@@ -69,7 +69,7 @@
     color: var(--extra-color);
     width: 70vw;
     @media (max-width: 900px) {
-      width: 100vw;
+      width: 100%;
     }
 
     .description-panel-image {
@@ -157,29 +157,38 @@
 }
 
 .document-list-container {
-  width: 70vw;
-  @media (max-width: 900px) {
-    width: 100vw;
-  }
-  .document-link-container {
-    max-width: 210px;
+  background-color: var(--primary-color-light);
+  color: var(--extra-color);
+  border-bottom: 3px solid var(--secondary-color-light);
 
-    .document-link {
+  .document-list {
+    width: 80vw;
+    @media (max-width: 900px) {
       width: 100%;
-      text-decoration: none;
-      color: var(--extra-color);
+    }
 
-      .document-link-border {
-        background-color: var(--primary-color-dark);
-        border: 1px solid var(--primary-color-dark);
-        min-height: 280px;
-      }
+    .document-link-container {
+      max-width: 210px;
 
-      &:hover {
-        color: var(--primary-color-dark);
+      .document-link {
+        width: 100%;
+        text-decoration: none;
+        color: var(--extra-color);
+
         .document-link-border {
           background-color: var(--extra-color);
-          border: 1px solid var(--primary-color-dark);
+          border: 1px solid var(--extra-color);
+          color: var(--primary-color-dark);
+          min-height: 250px;
+        }
+
+        &:hover {
+          color: var(--primary-color-dark);
+          .document-link-border {
+            color: var(--extra-color);
+            background-color: var(--primary-color-dark);
+            border: 1px solid var(--primary-color-dark);
+          }
         }
       }
     }
@@ -194,6 +203,37 @@
     max-width: 350px;
     .price-box {
       background-color: var(--secondary-color-dark);
+    }
+  }
+}
+
+.feedback-form-container {
+  background-color: var(--primary-color-dark);
+  .feedback-form {
+    width: 75%;
+    @media (max-width: 900px) {
+      width: 100%;
+    }
+    background-color: var(--primary-color-light);
+    color: var(--extra-color);
+  }
+}
+
+.faq-container {
+  background-color: var(--extra-color);
+  .faq {
+    color: var(--primary-color-dark);
+    .accordion-button {
+      color: var(--extra-color);
+      background-color: var(--secondary-color-dark);
+      &:focus {
+        color: var(--primary-color-dark);
+        background-color: var(--secondary-color-light);
+      }
+    }
+    .accordion-body {
+      color: var(--extra-color);
+      background-color: var(--primary-color-light);
     }
   }
 }

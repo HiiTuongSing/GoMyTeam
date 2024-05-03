@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function DescriptionPanel({ title, array }) {
   return (
     <>
-      <div className="description-panel-container w-100 pb-5">
+      <div className="description-panel-container pb-5">
         <div className="description-panel-title">
           <h1 className="py-5 text-center">{title}</h1>
         </div>

@@ -82,7 +82,7 @@ export default function SystemIntegration() {
     <>
       <HeroBanner
         title="System Integration"
-        description="Compatibility issues? We got you covered!"
+        description="Simplify the integration process and ensure seamless connectivity with our expert system integration support. Whether you're connecting our products with existing systems or exploring new integrations, our dedicated team is here to guide you every step of the way. Let us help you unlock the full potential of our solutions."
         buttonText="More info >>"
         imagePath={HeroImage}
       />

@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-//arrays
 const productArray = [
   {
     name: "Employee Engagement Platform",
@@ -32,19 +31,27 @@ const serviceArray = [
   { name: "System Integration", path: "/GoMyTeam/system-integration" },
 ];
 
-//functions
-function printNavPath(navArray) {
-  return navArray.map((nav, index) => (
-    <li key={index}>
-      <Link className="dropdown-item" to={nav.path}>
-        {nav.name}
-      </Link>
-    </li>
-  ));
-}
-
-//main jsx
 export default function Navbar() {
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => {
+    setCollapsed(!collapsed);
+  };
+
+  const closeNavbar = () => {
+    setCollapsed(true);
+  };
+
+  function printNavPath(navArray) {
+    return navArray.map((nav, index) => (
+      <li key={index}>
+        <Link className="dropdown-item" to={nav.path} onClick={closeNavbar}>
+          {nav.name}
+        </Link>
+      </li>
+    ));
+  }
+
   return (
     <>
       <nav className="navbar navbar-expand-xl fixed-top navbar-custom">
@@ -58,15 +65,13 @@ export default function Navbar() {
           <button
             className="navbar-toggler btn-nav"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            onClick={toggleNavbar}
           >
-            <i class="fa-solid fa-grip-lines"></i>
+            <i className="fa-solid fa-grip-lines"></i>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className={`collapse navbar-collapse ${collapsed ? "" : "show"}`}
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-3 ms-lg-5">
               <li className="nav-item dropdown ps-lg-3">
                 <a
@@ -95,13 +100,21 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item ps-lg-3">
-                <Link className="nav-link" to="/GoMyTeam/about">
+                <Link
+                  className="nav-link"
+                  to="/GoMyTeam/about"
+                  onClick={closeNavbar}
+                >
                   About
                 </Link>
               </li>
 
               <li className="nav-item ps-lg-3">
-                <Link className="nav-link" to="/GoMyTeam/pricing">
+                <Link
+                  className="nav-link"
+                  to="/GoMyTeam/pricing"
+                  onClick={closeNavbar}
+                >
                   Pricing
                 </Link>
               </li>
@@ -112,6 +125,7 @@ export default function Navbar() {
                 <Link
                   className="btn btn-basic mx-3 mb-2 mb-lg-0"
                   to="/GoMyTeam/placeholder-page"
+                  onClick={closeNavbar}
                 >
                   Request for DEMO!
                 </Link>
@@ -120,6 +134,7 @@ export default function Navbar() {
                 <Link
                   className="btn btn-basic mx-3 mb-2 mb-lg-0"
                   to="/GoMyTeam/placeholder-page"
+                  onClick={closeNavbar}
                 >
                   Start your free trial now!
                 </Link>

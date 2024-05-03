@@ -46,7 +46,7 @@ export default function SystemTraining() {
     <>
       <HeroBanner
         title="System Training"
-        description="Find all the training materials you need here!"
+        description="Elevate your team's skills and expertise with our comprehensive system training sessions. Led by industry experts, our training programs are designed to empower you with the knowledge and skills needed to maximize the potential of our products. From onboarding to advanced features, we're committed to helping you succeed."
         buttonText="More info >>"
         imagePath={HeroImage}
       />
