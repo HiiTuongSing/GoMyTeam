@@ -18,11 +18,12 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: var(--primary-color-dark);
-  color: white;
+  background-color: var(--core-color);
+  color: var(--extra-color);
   cursor: pointer;
 
   &:hover {
-    background-color: var(--primary-color-light);
+    background-color: var(--extra-color);
+    color: var(--core-color);
   }
 }
