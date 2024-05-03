@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-//1. <Test title='' array={} />
+//1. <DescriptionPanel title='' array={} />
 //2. const array = [{ title: "", description: "", linkText: "", linkPath: "", imagePath: {} }]
 
-export default function Test({ title, array }) {
+export default function DescriptionPanel({ title, array }) {
   return (
     <>
       <div className="description-panel-container w-100 pb-5">
