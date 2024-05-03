@@ -36,8 +36,9 @@ export default function BackToTopButton() {
     <button
       onClick={topFunction}
       ref={mybuttonRef}
-      id="myBtn"
+      id="backToTopBtn"
       title="Go to top"
+      className="p-3 rounded fs-4"
     >
       <i class="fa-solid fa-angles-up"></i>
     </button>

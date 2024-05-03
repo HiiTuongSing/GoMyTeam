@@ -179,3 +179,15 @@
     }
   }
 }
+
+.pricing-panel-container {
+  background-color: var(--primary-color-light);
+  color: var(--extra-color);
+  .pricing-panel {
+    background-color: var(--primary-color-dark);
+    max-width: 350px;
+    .price-box {
+      background-color: var(--secondary-color-dark);
+    }
+  }
+}
