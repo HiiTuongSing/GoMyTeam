@@ -10,9 +10,9 @@ export default function About() {
   return (
     <>
       <div className="test-hero-banner-container pt-5">
-        <div className="row p-0 m-0">
-          <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-            <h1 className="my-5">Our Story</h1>
+        <div className="row p-0 m-0 reverse">
+          <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-0 m-0 ">
+            <h1 className="my-lg-5">Our Story</h1>
             <p className="mx-5 mb-5 fw-light">
               At GoMyTeam, we believe in the power of teamwork to drive success
               and innovation in the workplace. Founded in 2020, our journey
@@ -34,7 +34,7 @@ export default function About() {
             <img src={HeroImage} alt="img" />
           </div>
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-            <h1 className="my-5">Our Mission & Values</h1>
+            <h1 className="my-lg-5">Our Mission & Values</h1>
             <p className="mx-5 mb-5 fw-light">
               Our mission at GoMyTeam is to empower businesses and teams to
               achieve their full potential through innovative technology and
@@ -68,9 +68,9 @@ export default function About() {
       </div>
 
       <div className="test-hero-banner-container">
-        <div className="row p-0 m-0">
+        <div className="row p-0 m-0 reverse">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-            <h1 className="my-5">Meet the Team</h1>
+            <h1 className="my-lg-5">Meet the Team</h1>
             <p className="mx-5 mb-5 fw-light">
               Behind every success story at GoMyTeam is a team of dedicated
               professionals who are passionate about making a difference.
@@ -95,7 +95,7 @@ export default function About() {
               Explore career opportunities and become part of the GoMyTeam
               family today!
             </p>
-            <button className="btn btn-basic btn-lg">Join now!</button>
+            <button className="btn btn-basic btn-lg mb-5">Join now!</button>
           </div>
         </div>
       </div>

@@ -150,6 +150,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
+
 .document-list-container {
   width: 70vw;
   @media (max-width: 900px) {
