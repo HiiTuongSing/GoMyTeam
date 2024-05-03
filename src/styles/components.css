@@ -149,3 +149,33 @@
     }
   }
 }
+
+.document-list-container {
+  width: 70vw;
+  @media (max-width: 900px) {
+    width: 100vw;
+  }
+  .document-link-container {
+    max-width: 210px;
+
+    .document-link {
+      width: 100%;
+      text-decoration: none;
+      color: var(--extra-color);
+
+      .document-link-border {
+        background-color: var(--primary-color-dark);
+        border: 1px solid var(--primary-color-dark);
+        min-height: 280px;
+      }
+
+      &:hover {
+        color: var(--primary-color-dark);
+        .document-link-border {
+          background-color: var(--extra-color);
+          border: 1px solid var(--primary-color-dark);
+        }
+      }
+    }
+  }
+}
