@@ -86,7 +86,10 @@ export default function Footer() {
               <p className="fw-light">
                 <em>
                   Photo by{" "}
-                  <a href="https://www.pexels.com/@fabianwiktor/">
+                  <a
+                    target="_blank"
+                    href="https://www.pexels.com/@fabianwiktor/"
+                  >
                     Pexels | Fabian Wiktor
                   </a>
                 </em>
