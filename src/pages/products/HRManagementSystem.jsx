@@ -72,7 +72,7 @@ export default function HRManagementSystem() {
 
       <ActionBanner
         title="Ready to revolutionize your HR operations?"
-        description="Experience the power of HRProSuite today and unlock the true potential of your workforce!"
+        description="Experience the power of our system today and unlock the true potential of your workforce!"
         buttonText="Sign up now!"
         buttonLink="/GoMyTeam/placeholder-page"
       />

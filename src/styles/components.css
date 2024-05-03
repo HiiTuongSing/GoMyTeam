@@ -184,18 +184,17 @@
         color: var(--extra-color);
 
         .document-link-border {
-          background-color: var(--extra-color);
-          border: 1px solid var(--extra-color);
-          color: var(--primary-color-dark);
+          background-color: var(--primary-color-dark);
+          border: 1px solid var(--primary-color-dark);
+          color: var(--extra-color);
           min-height: 250px;
         }
 
         &:hover {
-          color: var(--primary-color-dark);
           .document-link-border {
-            color: var(--extra-color);
-            background-color: var(--primary-color-dark);
-            border: 1px solid var(--primary-color-dark);
+            color: var(--core-color);
+            background-color: var(--extra-color);
+            border: 1px solid var(--extra-color);
           }
         }
       }

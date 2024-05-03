@@ -3,40 +3,41 @@ import React from "react";
 //components
 import HeroBanner from "../../components/HeroBanner";
 import FeedbackForm from "../../components/FeedbackForm";
+import DocumentList from "../../components/DocumentList";
 
 //images
 import HeroImage from "../../images/sea.jpg";
-import DocumentList from "../../components/DocumentList";
+import FileImage from "../../images/file.svg";
 
 const documentArray = [
   {
     title: "Employee Engagement Platform",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "HR Management System",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Team Collaboration Tools",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Training and Development Resources",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Customizable HR Templates",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Data Analytic Dashboard",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
 ];

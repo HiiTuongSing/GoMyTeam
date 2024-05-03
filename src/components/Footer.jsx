@@ -84,10 +84,12 @@ export default function Footer() {
                 <em>Designed by Hii Tuong Sing</em>
               </p>
               <p className="fw-light">
-                The photo is by{" "}
-                <a href="https://www.pexels.com/@fabianwiktor/">
-                  Pexels | Fabian Wiktor
-                </a>
+                <em>
+                  Photo by{" "}
+                  <a href="https://www.pexels.com/@fabianwiktor/">
+                    Pexels | Fabian Wiktor
+                  </a>
+                </em>
               </p>
               <p className="fw-light">
                 <em>© GoMyTeam.com 2024 All rights reserved</em>

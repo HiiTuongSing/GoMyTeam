@@ -23,7 +23,7 @@ export default function PricingPanel({ title, pricingArray }) {
         {pricingArray.map((item, index) => (
           <div key={index} className="col">
             <div className="pricing-panel rounded m-auto text-center p-5 my-5">
-              <h5>{item.title}</h5>
+              <h5 className="fw-bold">{item.title}</h5>
               <p className="fw-light">{item.subtitle}</p>
               <div className="price-box rounded p-4 mb-3">
                 <h1 className="m-0">{item.price}</h1>
@@ -35,7 +35,7 @@ export default function PricingPanel({ title, pricingArray }) {
               >
                 Purchase
               </Link>
-              <h5>Feature includes</h5>
+              <h5 className="fw-bold">Feature includes</h5>
               {item.features.map((feature, index) => (
                 <p key={index} className="fw-light">
                   {feature}

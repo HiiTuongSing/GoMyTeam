@@ -13,7 +13,7 @@ export default function About() {
       <div className="about-hero-banner-container pt-5">
         <div className="row p-0 m-0 reverse">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5 p-lg-0 m-0 ">
-            <h1 className="mb-lg-5">Our Story</h1>
+            <p className="display-5 fw-bold pt-5 text-center">Our Story</p>
             <p className="mx-5 fw-light">
               At GoMyTeam, we believe in the power of teamwork to drive success
               and innovation in the workplace. Founded in 2020, our journey
@@ -35,7 +35,9 @@ export default function About() {
             <img src={HeroImage} alt="img" />
           </div>
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5 p-lg-0 m-0">
-            <h1 className="mb-lg-5">Our Mission & Values</h1>
+            <p className="display-5 fw-bold pt-5 text-center">
+              Our Mission & Values
+            </p>
             <p className="mx-5 fw-light">
               Our mission at GoMyTeam is to empower businesses and teams to
               achieve their full potential through innovative technology and
@@ -71,7 +73,7 @@ export default function About() {
       <div className="about-hero-banner-container">
         <div className="row p-0 m-0 reverse">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5 p-lg-0 m-0">
-            <h1 className="mb-lg-5">Meet the Team</h1>
+            <p className="display-5 fw-bold pt-5 text-center">Meet the Team</p>
             <p className="mx-5 fw-light">
               Behind every success story at GoMyTeam is a team of dedicated
               professionals who are passionate about making a difference.
@@ -89,8 +91,8 @@ export default function About() {
             <img src={HeroImage} alt="img" />
           </div>
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-            <h1 className="my-5">Join Our Team</h1>
-            <p className="mx-5 mb-5 fw-light">
+            <p className="display-5 fw-bold pt-5 text-center">Join Our Team</p>
+            <p className="mx-5 mb-3 fw-light">
               Are you passionate about driving positive change in the workplace?
               Join us on our mission to empower teams and businesses to succeed.
               Explore career opportunities and become part of the GoMyTeam

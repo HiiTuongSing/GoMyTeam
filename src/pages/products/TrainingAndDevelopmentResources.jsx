@@ -72,7 +72,7 @@ export default function TrainingAndDevelopmentResources() {
 
       <ActionBanner
         title="Ready to invest in your team's future success?"
-        description="Enroll in LearnPro360 today and empower your employees to thrive in an ever-evolving world!"
+        description="Enroll today and empower your employees to thrive in an ever-evolving world!"
         buttonText="Sign up now!"
         buttonLink="/GoMyTeam/placeholder-page"
       />

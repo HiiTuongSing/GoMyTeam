@@ -7,26 +7,27 @@ import FeedbackForm from "../../components/FeedbackForm";
 
 //images
 import HeroImage from "../../images/sea.jpg";
+import FileImage from "../../images/file.svg";
 
 const accountingArray = [
   {
     title: "Xero",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Netsuite",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Zoho Books",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Dynamics 365 Business Central",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
 ];
@@ -34,12 +35,12 @@ const accountingArray = [
 const workforceArray = [
   {
     title: "Simpro via SyncEzy",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Square",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
 ];
@@ -47,32 +48,32 @@ const workforceArray = [
 const otherArray = [
   {
     title: "GO1",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Slack",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "NoahFace",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Power BI via SyncEzy",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Google Workspace Account",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
   {
     title: "Microsoft 365 Account",
-    imagePath: HeroImage,
+    imagePath: FileImage,
     linkPath: "/GoMyTeam/placeholder-page",
   },
 ];

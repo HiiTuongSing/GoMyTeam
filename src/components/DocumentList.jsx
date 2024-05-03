@@ -9,7 +9,7 @@ export default function DocumentList({ title, documentArray }) {
     <>
       <div className="document-list-container py-3">
         <div className="document-list mb-5 mx-auto">
-          <h1 className="text-center my-5">{title}</h1>
+          <p className="display-5 fw-bold pt-5 text-center">{title}</p>
           <div className="row justify-content-center w-100 mx-auto">
             {documentArray.map((document, index) => (
               <div key={index} className="document-link-container col m-3">

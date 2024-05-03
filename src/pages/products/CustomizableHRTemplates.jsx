@@ -72,7 +72,7 @@ export default function CustomizableHRTemplates() {
 
       <ActionBanner
         title="Ready to streamline your HR documentation process? "
-        description="Unlock the power of HRDocsPro today and simplify your HR operations with ease!"
+        description="Unlock the power of templates today and simplify your HR operations with ease!"
         buttonText="Sign up now!"
         buttonLink="/GoMyTeam/placeholder-page"
       />

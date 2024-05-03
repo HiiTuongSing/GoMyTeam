@@ -14,7 +14,7 @@ const featureArray = [
     imagePath: HeroImage,
     title: "Seamless Integration",
     description:
-      "Integrate your favorite productivity apps seamlessly with CollaboraHub, ensuring a smooth workflow without switching between multiple platforms.",
+      "Integrate your favorite productivity apps seamlessly, ensuring a smooth workflow without switching between multiple platforms.",
   },
   {
     imagePath: HeroImage,
@@ -26,7 +26,7 @@ const featureArray = [
     imagePath: HeroImage,
     title: "Customizable Workspaces",
     description:
-      "Tailor CollaboraHub to suit your team's unique needs with customizable workspaces, project boards, and task lists.",
+      "Tailored to suit your team's unique needs with customizable workspaces, project boards, and task lists.",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function TeamCollaborationTools() {
 
       <ActionBanner
         title="Ready to revolutionize the way your team works together?"
-        description="Join CollaboraHub today and take collaboration to new heights!"
+        description="Join hundreds of others today and take collaboration to new heights!"
         buttonText="Sign up now!"
         buttonLink="/GoMyTeam/placeholder-page"
       />

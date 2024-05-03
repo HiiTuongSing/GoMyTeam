@@ -6,7 +6,7 @@ export default function FeedbackForm() {
     <>
       <div className="feedback-form-container py-lg-3 ">
         <div className="feedback-form rounded my-lg-5 mx-lg-auto">
-          <h1 className="text-center pt-5">Feedback Form</h1>
+          <p className="display-5 fw-bold pt-5 text-center">Feedback Form</p>
           <p className="text-center">Let us know what you think about us!</p>
           <form id="user-contact" className="pb-5 w-75 m-auto">
             <div className="form-group mb-3">
