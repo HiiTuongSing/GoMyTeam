@@ -52,13 +52,13 @@
 }
 
 .feature-panel-container {
-  background-color: var(--extra-color);
+  background-color: var(--primary-color-dark);
+  color: var(--extra-color);
   width: 100%;
 
   .feature-panel {
     width: 80%;
     text-align: center;
-    color: var(--primary-color-dark);
   }
 }
 
@@ -72,7 +72,7 @@
     @media (max-width: 900px) {
       width: 100%;
       border-radius: 0;
-      border-bottom: 3px solid var(--extra-color);
+      border-bottom: 3px solid var(--primary-color-dark);
     }
 
     .description-panel-image {
@@ -94,6 +94,7 @@
     }
 
     &:nth-child(even) {
+      background-color: var(--primary-color-light);
       @media (max-width: 768px) {
         flex-direction: column-reverse;
       }
@@ -138,7 +139,7 @@
   }
 }
 
-.test-hero-banner-container {
+.about-hero-banner-container {
   width: 100%;
   background-color: var(--primary-color-light);
   color: var(--extra-color);

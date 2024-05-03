@@ -9,7 +9,7 @@ export default function DescriptionPanel({ title, array }) {
     <>
       <div className="description-panel-container pb-lg-5">
         <div className="description-panel-title">
-          <h1 className="py-5 text-center">{title}</h1>
+          <p className="display-5 fw-bold pt-5 text-center">{title}</p>
         </div>
         {array.map((item, index) => (
           <div

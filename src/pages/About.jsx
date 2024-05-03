@@ -10,7 +10,7 @@ import HeroImage from "../images/sea.jpg";
 export default function About() {
   return (
     <>
-      <div className="test-hero-banner-container pt-5">
+      <div className="about-hero-banner-container pt-5">
         <div className="row p-0 m-0 reverse">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5 p-lg-0 m-0 ">
             <h1 className="mb-lg-5">Our Story</h1>
@@ -29,7 +29,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="test-hero-banner-container">
+      <div className="about-hero-banner-container">
         <div className="row p-0 m-0">
           <div className="col-12 col-lg-6 p-0 m-0">
             <img src={HeroImage} alt="img" />
@@ -68,7 +68,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="test-hero-banner-container">
+      <div className="about-hero-banner-container">
         <div className="row p-0 m-0 reverse">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5 p-lg-0 m-0">
             <h1 className="mb-lg-5">Meet the Team</h1>
@@ -83,7 +83,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="test-hero-banner-container">
+      <div className="about-hero-banner-container">
         <div className="row p-0 m-0">
           <div className="col-12 col-lg-6 p-0 m-0">
             <img src={HeroImage} alt="img" />

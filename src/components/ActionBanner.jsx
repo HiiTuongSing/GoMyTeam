@@ -8,6 +8,7 @@ export default function ActionBanner({
   description,
   buttonText,
   buttonLink,
+  onClick,
 }) {
   return (
     <div className="action-banner-container py-5 text-center">
@@ -19,7 +20,11 @@ export default function ActionBanner({
           <p className="mx-md-5 my-0 pb-3 fs-4">{description}</p>
         </div>
 
-        <Link to={buttonLink} className="btn btn-basic btn-lg">
+        <Link
+          to={buttonLink}
+          onClick={onClick}
+          className="btn btn-basic btn-lg"
+        >
           {buttonText}
         </Link>
       </div>

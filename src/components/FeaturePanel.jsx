@@ -11,9 +11,9 @@ import React from "react";
 
 export default function FeaturePanel({ title, featureArray }) {
   return (
-    <div className="feature-panel-container py-5 d-flex justify-content-center">
+    <div className="feature-panel-container pb-5 d-flex justify-content-center">
       <div className="feature-panel">
-        <h1 className="mb-5">{title}</h1>
+        <p className="display-5 fw-bold pt-5 text-center">{title}</p>
         <div className="row">
           {featureArray.map((element, index) => (
             <div key={index} className="col-12 col-lg-4 p-2 p-lg-3">
